@@ -176,6 +176,7 @@ AOS.init({
 
 
 	var counter = function () {
+
 		$('#section-counter, .hero-wrap, .ftco-counter, .ftco-about').waypoint(function (direction) {
 
 			if (direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
@@ -202,7 +203,6 @@ AOS.init({
 
 
 	var contentWayPoint = function () {
-		debugger
 		var i = 0;
 		$('.ftco-animate').waypoint(function (direction) {
 
